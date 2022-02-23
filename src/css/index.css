@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  height: 100vh;
+}
+
+.gameContainer {
+  padding: 40px;
+  background: #e8eaed;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.gameControls {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.gameControls_move {
+}
+
+.gameField {
+  width: 100%;
+  min-height: 100px;
+  background: red;
+  position: relative;
+}
+
+.gameField__gameObject {
+  width: 150px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  /* width: 100%; */
+}

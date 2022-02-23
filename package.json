@@ -1,0 +1,25 @@
+{
+  "name": "solid_homework",
+  "version": "1.0.0",
+  "description": "Homework for SOLID principles course",
+  "author": "Roman Vavilov",
+  "main": "index.js",
+  "scripts": {
+    "dev": "gulp",
+    "build": "gulp build",
+    "watch": "gulp build & gulp watch"
+  },
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-hash-src": "^0.1.6"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.27.7",
+    "del": "^6.0.0",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^7.1.0"
+  },
+  "license": "ISC"
+}
